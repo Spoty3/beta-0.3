@@ -1,0 +1,158 @@
+body{
+  background: linear-gradient(#2c2c2c, #616161) fixed;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+header{
+  width: 101.3%;
+  height: 70px;
+  background: #363636;
+  color: #fff;
+  margin-top: -10px;
+  margin-left: -10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+a{
+  text-decoration: none;
+  outline: 0;
+}
+a{
+  color: currentColor;
+  transition: .2s ease-in-out;
+}
+.a1{
+     color: #ffffff;
+     transition: 0.3s linear;font-size: 20px;
+     font-size: 20px;
+     vertical-align: 40px;
+}
+.a1:hover {
+  color: #b6b6b6;
+  }
+  .i1{
+    margin-top: -40px;
+  }
+  .p1{
+    color: #ffffff; 
+		-webkit-text-stroke-width: 0.2px;
+		-webkit-text-stroke-color: #ffffff;
+  }
+  .p3{
+    color: #ffffff; 
+    font-size: 50px;
+    font-weight: 550;
+  }
+  .p4{
+    color: #ffffff; 
+    font-size: 50px;
+    font-weight: 550;
+    margin-top: -50px;
+  }
+  .d1{
+    margin-top: -80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .p5{
+    color: #cfcfcf; 
+    font-size: 25px;
+  }
+  .p6{
+    color: #ffffff; 
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+  }
+  .p7{
+    color: #cfcfcf; 
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cssbuttons-io-button {
+    background: #afafaf;
+    color: rgba(0, 0, 0, 0.712);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #a1a1a1;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  .p8{
+    color: #ffffff; 
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+  .p9{
+    color: #ffffff; 
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+  .vl {
+    border-left: 4px solid rgb(255, 255, 255);
+    height: 220px;
+    margin-left: 20px;
+}
+.vl2 {
+  border-left: 4px solid rgb(255, 255, 255);
+  height: 370px;
+  margin-left: 20px;
+}
+
+#popup {
+  position: fixed;
+  display: none;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
